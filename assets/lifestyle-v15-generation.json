@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-15",
+  "method": "built-in imagegen",
+  "fictional": true,
+  "scope": "Existing everyday section; new generated adult models and product-reference outfits",
+  "assets": [
+    {
+      "id": "commute",
+      "refs": [
+        "field-shirt-v14.png",
+        "field-wide-v14.png",
+        "daily-pack-v14.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create a new outdoor-fashion editorial lifestyle photograph for fictional G-YAK, replacing the commute image in an established calm olive-and-stone Korean brand store. The supplied images are supporting product references ONLY, not an edit target or people reference. Show one generated Korean adult man about 30 walking to work on a tasteful quiet Seoul-style urban sidewalk with stone office architecture and a few softly blurred green trees. He wears EXACTLY the sand cotton overshirt from reference 1 (two flap chest pockets and buttons, open slightly over a plain light undershirt), the charcoal wide straight trousers from reference 2 (built-in belt, relaxed full length), and carries the charcoal rounded backpack from reference 3 on one shoulder, its front pocket visible. Show the garment structure, colors and matching details faithfully on a body. Composition: landscape 3:2, full body from head through shoes within central 65% of frame, generous headroom and ground margin for safe 3:2 crop, natural walking three-quarter front view. Soft morning daylight, warm neutral restrained color, real fabric texture, quiet aspirational everyday mood, candid fashion photography, architectural depth, crisp clothing, normal anatomy. No puffer, no down jacket, no quilted garment, no text, labels, letters, logos, watermarks, fake UI, props obscuring clothing. This is a new fictional adult model, not a representation of a real customer.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-1345255d-ae0b-4441-8735-eddf4d151c47.png",
+      "original": "assets/source/look-commute-v15.png",
+      "web": "dist/assets/look-commute-v15.webp",
+      "width": 1536,
+      "height": 1024,
+      "webBytes": 151990
+    },
+    {
+      "id": "walk",
+      "refs": [
+        "halfzip-sweat-v14.png",
+        "jogger-stone.png",
+        "trail-cap-v14.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create a new outdoor-fashion editorial lifestyle photograph for fictional G-YAK's everyday park-walk story. Supporting reference images are product references ONLY. Show one generated Korean adult woman about 29 on a relaxed neighborhood park walk in leafy early autumn green woodland with a gentle sunlit path and warm stone edging. She wears EXACTLY the navy stand-collar half-zip sweatshirt from ref 1 (short silver front zip, no hoodie, no chest pocket, rib hem and cuffs), the light stone jogger pants from ref 2 (elastic drawstring waist, tapered rib ankle cuffs, side pockets), and the plain navy curved-peak six-panel cap from ref 3. No outer jacket. Keep apparel faithfully matched in color and recognizable structure, comfortable natural fit. Portrait 4:5 editorial composition. Full figure including shoes centered horizontally, entire cap with comfortable headroom, full legs and ground visible, relaxed stride angled slightly toward camera, face and all clothes naturally visible. Soft natural morning daylight with believable leaf shadows, calm cheerful everyday atmosphere, realistic cloth, restrained olive/stone/navy palette, candid premium lifestyle photo, photographic skin texture, normal anatomy. No puffer/down/quilted jacket, no logos, letters, text, watermark, UI, extreme posing or luxury glamour. New fictional adult, no real-person identity.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-c5d66be4-f6b8-403c-a8a3-b9e14938e2a2.png",
+      "original": "assets/source/look-walk-v15.png",
+      "web": "dist/assets/look-walk-v15.webp",
+      "width": 1122,
+      "height": 1402,
+      "webBytes": 240202
+    },
+    {
+      "id": "trek",
+      "refs": [
+        "wind-shell-v14.png",
+        "trail-charcoal.png",
+        "field-hat-v14.png"
+      ],
+      "prompt": "Use case: photorealistic-natural. Create a new editorial outdoor lifestyle photograph for fictional G-YAK's light weekend trekking outfit. Product reference images are supporting apparel references ONLY. Show one generated Korean adult woman about 33 taking a natural step along a broad safe rocky forest-and-low-ridge trail, with layered green hills in the distance, some sunlit grass and mountain shrubs. No snow and no technical mountaineering. She wears EXACTLY the muted olive thin wind shell from reference 1 (smooth unquilted matte nylon, full front zip, side pockets, hood lying down behind neck), charcoal tapered drawstring trail trousers from reference 2, and light stone bucket hat from reference 3 (downward brim and chin cord). Emphasize the very lightweight shell, clearly different from padded clothing. Landscape 4:3 composition, full body central 60% including all shoes, headroom and ground margin so no body is cut, three-quarter front walking stance with relaxed arms. Natural slightly overcast bright daylight, believable airy wind catching only fabric lightly, realistic garment textures/details/colors, calm warm-earth and muted green palette, refined approachable outdoors fashion editorial, normal anatomy. No puffer/down/quilted garment, no logos, letters, text, watermark, graphic, UI, dramatic dangerous climbing or performance claims. A new fictional adult model, not a real customer.",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-817886db-acc3-47d4-8250-86fbbc857523.png",
+      "original": "assets/source/look-trek-v15.png",
+      "web": "dist/assets/look-trek-v15.webp",
+      "width": 1448,
+      "height": 1086,
+      "webBytes": 297058
+    }
+  ]
+}

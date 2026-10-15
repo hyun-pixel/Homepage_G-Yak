@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-14",
+  "version": 8,
+  "tool": "built-in image_gen, transparent-background edits",
+  "use": "Wide-open final hero reveal, two-state image crossfade; fictional garment imagery, not a 3D or physics simulation.",
+  "assets": [
+    {
+      "color": "olive",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-e436ec35-e315-4262-9481-d81df6436d3e.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied transparent cutout of the fictional G-YAK olive hooded puffer jacket into a much more dynamic, WIDELY SPREAD OPEN pose for the final reveal of a website hero. Keep the same jacket: matte olive fabric, darker olive padded lining, hood, horizontal baffles, two zip hand pockets and cuffs, same natural photographic light. The center zipper is fully undone. Swing BOTH front panels clearly outward so a broad continuous padded inner back is visible, about 45-55 percent of the torso width; the lower panels flare out like catching a gentle gust. Angle both sleeves outward from the body about 30 degrees, with natural bends at the elbows and cuffs lower than shoulders, forming an energetic open A-shaped silhouette. The effect must be unmistakably wider and more expanded than the narrow zipper slit in the reference. Symmetric enough to read clearly, with slight natural fabric asymmetry and real perspective folds. Front-facing ghost-mannequin product photography, not an exploded garment or a different jacket. Keep the hood near the same top-center position and preserve original garment length. Full garment fully visible with safe transparent margins, same 1145x1374 portrait canvas and center alignment, no cropping of cuffs or panels. No body, mannequin, hands, hanger, flying debris, additional hardware, badges, labels, words, logos, cast ground shadow, checkerboard or solid background. One realistic jacket on genuine transparent alpha background.",
+      "framingPrompt": "Use case: precise-object-edit. Edit the supplied wide-open olive puffer product cutout. Keep this exact energetic wide-open jacket pose and all garment details, color, padded lining, front panels, quilting, sleeves, cuff shapes and light unchanged. Change only the framing: pull the camera back so the ENTIRE garment is safely visible inside the same 1145x1374 portrait transparent canvas, with at least 70 pixels of genuine transparent empty margin on LEFT and RIGHT and 60 pixels at top and bottom. Reconstruct any outer sleeve fabric that currently touches or is clipped by the canvas edges. The widest part of the garment must occupy at most 86 percent of canvas width. Preserve centered placement, no rotation or perspective changes. Do not close the jacket or make its opening narrow. One jacket on actual alpha transparency; no shadow, text, mannequin, hanger, background, or checkerboard.",
+      "framingEditInput": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-ec258e60-be02-41ad-be56-f414eedb120b.png",
+      "references": [
+        "assets/source/puffer-olive-open.png"
+      ],
+      "workspaceSource": "assets/source/puffer-olive-open-wide.png",
+      "output": "dist/assets/puffer-olive-open-wide.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 103578,
+      "alpha": true
+    },
+    {
+      "color": "stone",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-dddcc57e-3cb2-4dd0-9f93-762d59d588d6.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a wide-open olive puffer with flared front panels, broad visible padded lining and outward-angled sleeves, safely framed on transparency. Image 2 is ONLY a fabric color/material reference of the same fictional G-YAK puffer in light neutral stone-gray. Change ONLY the olive colors of Image 1 to match the light neutral stone-gray of Image 2, including a naturally slightly darker matching lining. Preserve Image 1's EXACT wide-open pose, full garment outline, hood, quilting, pockets, cuffs, perspective folds, framing, garment scale, 1145x1374 portrait canvas, and generous transparent margins. Both front panels must remain dramatically spread; do not narrow the opening or close the zipper. No text, logo, people, body, hands, hanger, cast shadow, solid background or checkerboard. Keep true alpha transparency.",
+      "references": [
+        "assets/source/puffer-olive-open-wide.png",
+        "assets/source/puffer-stone-open.png"
+      ],
+      "workspaceSource": "assets/source/puffer-stone-open-wide.png",
+      "output": "dist/assets/puffer-stone-open-wide.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 105880,
+      "alpha": true
+    },
+    {
+      "color": "charcoal",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-3883ed44-00db-4dad-adbd-4203be48fefd.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a wide-open olive puffer with flared front panels, broad visible padded lining and outward-angled sleeves, safely framed on transparency. Image 2 is ONLY a fabric color/material reference of the same fictional G-YAK puffer in deep neutral charcoal-gray. Change ONLY the olive colors of Image 1 to match the deep neutral charcoal-gray of Image 2, including a naturally slightly darker matching lining. Preserve Image 1's EXACT wide-open pose, full garment outline, hood, quilting, pockets, cuffs, perspective folds, framing, garment scale, 1145x1374 portrait canvas, and generous transparent margins. Both front panels must remain dramatically spread; do not narrow the opening or close the zipper. No text, logo, people, body, hands, hanger, cast shadow, solid background or checkerboard. Keep true alpha transparency.",
+      "references": [
+        "assets/source/puffer-olive-open-wide.png",
+        "assets/source/puffer-charcoal-open.png"
+      ],
+      "workspaceSource": "assets/source/puffer-charcoal-open-wide.png",
+      "output": "dist/assets/puffer-charcoal-open-wide.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 93304,
+      "alpha": true
+    }
+  ]
+}

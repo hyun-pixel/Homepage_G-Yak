@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-14",
+  "tool": "built-in image_gen",
+  "use": "Fictional landscape plates for scroll hero; not product testing or real locations.",
+  "assets": [
+    {
+      "scene": "city",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-e0da7165-1524-4d01-b41a-c3c97dd05ea0.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: photographic background plate for the fictional everyday outdoor clothing brand G-YAK's full-screen scroll hero, used behind a separate floating olive puffer jacket and HTML headings. Generate one wide landscape photograph, aspect ratio 16:9, no collage. Scene: a quiet contemporary city pedestrian street at early morning, tasteful concrete and glass mid-rise buildings receding toward the distant center, a few winter-bare trees and cool pale sky, wide empty pavement foreground. Natural soft overcast daylight. Muted cool gray and gentle olive palette, realistic editorial outdoor campaign photography, quiet yet expansive. The upper left quarter should have simple low-detail light gray facade/sky suitable for dark text overlay; no lettering printed into image. Central foreground uncluttered for the separately composited jacket. Avoid people, clothing, vehicles, logos, signs, words, watermark, dramatic saturation, fake bokeh. This is the first in a consistent city > snowy mountains > trekking landscape series.",
+      "workspaceSource": "assets\\source\\hero-city.png",
+      "outputs": [
+        {
+          "path": "dist/assets/hero-city.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 106316
+        },
+        {
+          "path": "dist/assets/hero-city-mobile.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 31862
+        }
+      ]
+    },
+    {
+      "scene": "snow",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-1b190319-5339-429a-8b90-c904806a5498.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape photographic background plate for the fictional everyday outdoor clothing brand G-YAK's full-screen scroll hero, behind a separate floating olive puffer jacket and HTML text. One wide 16:9 landscape photograph, no collage. Scene: expansive snowy mountain valley on a soft clear winter morning. A broad snow-covered foothill occupies the lower third, layered alpine ridgelines in the distance center and right, a quiet pale gray-blue sky in upper half. Breathtaking but natural everyday outdoor campaign photography, no extreme climbers, no dramatic storm. The upper right quarter must be simple pale sky with low detail for dark text overlay; center foreground uncluttered. Light cool gray, muted blue shadows and white snow, balanced neutral exposure matching a soft overcast city editorial photograph. Realistic snow and atmospheric depth. Avoid people, animals, clothing, buildings, equipment, signs, logos, words, watermark, neon teal grading. This is scene two of a cohesive city > snowy mountains > gentle trekking sequence.",
+      "workspaceSource": "assets\\source\\hero-snow.png",
+      "outputs": [
+        {
+          "path": "dist/assets/hero-snow.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 91854
+        },
+        {
+          "path": "dist/assets/hero-snow-mobile.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 29188
+        }
+      ]
+    },
+    {
+      "scene": "trek",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-c060a341-1146-4e0e-88e1-5f1abedadf28.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape photographic background plate for fictional everyday outdoor clothing brand G-YAK's full-screen scroll hero behind a separate olive puffer jacket and HTML typography. One wide 16:9 landscape photograph, no collage. Scene: a gentle accessible trekking path through an open mountain meadow, soft low sage-green grasses in the foreground, a narrow gravel path winding from lower center into the mid-distance, weathered stones, a few sparse pines on the far right and layered wooded hills in the background. Cool crisp late-autumn daylight, pale overcast sky, subtle atmospheric haze. A quiet spacious natural editorial outdoor campaign photograph with realistic textures and muted olive / gray-green / stone tones, coherent with soft city and snowy mountain photos. Upper left quarter simple pale sky / distant hazy hill for dark copy overlay, central foreground uncluttered for separately composited product. Avoid people, animals, clothing, buildings, equipment, text, logos, watermark, lush tropical scene, extreme rock climbing, oversaturated color. Scene three of city > snowy mountain > gentle trekking sequence.",
+      "workspaceSource": "assets\\source\\hero-trek.png",
+      "outputs": [
+        {
+          "path": "dist/assets/hero-trek.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 190418
+        },
+        {
+          "path": "dist/assets/hero-trek-mobile.webp",
+          "width": 768,
+          "height": 432,
+          "bytes": 52136
+        }
+      ]
+    }
+  ]
+}

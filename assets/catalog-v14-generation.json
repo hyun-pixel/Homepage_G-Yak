@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-15",
+  "method": "built-in imagegen",
+  "fictional": true,
+  "assets": [
+    {
+      "id": "wind-shell",
+      "color": "olive",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-3e29e700-7da6-43e6-9c60-f76e9ca2c473.png",
+      "original": "assets/source/wind-shell-v14.png",
+      "web": "dist/assets/wind-shell-olive.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "alphaStats": {
+        "min": 0,
+        "max": 254,
+        "sum": 185845880,
+        "squaresSum": 46917850546,
+        "mean": 118.15762837727864,
+        "stdev": 125.96964307411871,
+        "minX": 0,
+        "minY": 64,
+        "maxX": 465,
+        "maxY": 225
+      },
+      "subject": "Single muted olive hooded wind jacket, matte lightweight nylon, full front zipper, two side pockets, relaxed long sleeves, front three-quarter product view."
+    },
+    {
+      "id": "cozy-fleece",
+      "color": "sand",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-100c7ab5-8aa0-4b25-a879-a09f3a3da268.png",
+      "original": "assets/source/cozy-fleece-v14.png",
+      "web": "dist/assets/cozy-fleece-sand.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "alphaStats": {
+        "min": 0,
+        "max": 254,
+        "sum": 241914940,
+        "squaresSum": 60995870172,
+        "mean": 153.8053766886393,
+        "stdev": 122.9798584207971,
+        "minX": 0,
+        "minY": 16,
+        "maxX": 455,
+        "maxY": 184
+      },
+      "subject": "Single sand sherpa fleece jacket, stand collar, full zipper, charcoal contrast chest pocket, two lower hand pockets, relaxed long sleeves."
+    },
+    {
+      "id": "field-parka",
+      "color": "navy",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-c7e9f428-c0de-4a65-8319-0e2284feaffd.png",
+      "original": "assets/source/field-parka-v14.png",
+      "web": "dist/assets/field-parka-navy.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true,
+      "alphaStats": {
+        "min": 0,
+        "max": 254,
+        "sum": 228153980,
+        "squaresSum": 57617289944,
+        "mean": 145.0563939412435,
+        "stdev": 124.86288035055715,
+        "minX": 0,
+        "minY": 0,
+        "maxX": 501,
+        "maxY": 136
+      },
+      "subject": "Single deep navy thigh-length hooded field parka, matte fabric, snap placket over front zipper, two large flap pockets, long sleeves."
+    },
+    {
+      "id": "fleece-vest",
+      "color": "cream",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-380ea270-6772-4f5a-a0f6-819f932ee9c9.png",
+      "subject": "Ivory cream sherpa fleece sleeveless vest, stand collar, charcoal nylon single zip chest pocket and subtle trim, two side pockets, straight hem, unisex.",
+      "original": "assets/source/fleece-vest-v14.png",
+      "web": "dist/assets/fleece-vest-cream.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "field-shirt",
+      "color": "sand",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-0abf177b-5091-4829-bd1e-cfb5e54f4709.png",
+      "subject": "Warm sand beige boxy outdoor overshirt, pointed shirt collar, button front, two squared flap chest pockets, long relaxed sleeves and straight hem, unisex.",
+      "original": "assets/source/field-shirt-v14.png",
+      "web": "dist/assets/field-shirt-sand.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "halfzip-sweat",
+      "color": "navy",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-2655fb17-b08d-41c7-8324-31104aeb80ba.png",
+      "subject": "Deep ink navy cotton sweatshirt with quarter zip stand collar, relaxed dropped shoulders, long sleeves, rib cuffs and hem, simple plain chest, unisex.",
+      "original": "assets/source/halfzip-sweat-v14.png",
+      "web": "dist/assets/halfzip-sweat-navy.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "pocket-tee",
+      "color": "stone",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-64e3b589-a99b-474d-8242-8e43e4b8e980.png",
+      "subject": "Soft stone light grey short-sleeved heavyweight cotton crewneck T-shirt, single left chest patch pocket, relaxed boxy unisex shape, plain fabric.",
+      "original": "assets/source/pocket-tee-v14.png",
+      "web": "dist/assets/pocket-tee-stone.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "rugby-long",
+      "color": "clay",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-ce7c7ea9-b592-41c1-ad46-f1f2b6a3bbef.png",
+      "subject": "Muted terracotta clay long-sleeve rugby polo shirt, dark cream pointed collar, short concealed placket, plain solid body, rib cuffs, relaxed unisex silhouette.",
+      "original": "assets/source/rugby-long-v14.png",
+      "web": "dist/assets/rugby-long-clay.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "field-wide",
+      "color": "charcoal",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-a6d2c47d-3862-4fce-a47b-01e788a2ad0e.png",
+      "subject": "Charcoal grey relaxed wide-leg outdoor trousers, elastic waistband with tonal integrated webbing belt, two side slash pockets, straight wide hems, front view full length, unisex.",
+      "original": "assets/source/field-wide-v14.png",
+      "web": "dist/assets/field-wide-charcoal.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "trail-shorts",
+      "color": "olive",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-3b77eb38-b126-49b7-8e72-54305c2acb7f.png",
+      "subject": "Muted olive green knee-above outdoor shorts, elastic waistband and dark tonal drawcord, two small side utility pockets, clean relaxed unisex shape.",
+      "original": "assets/source/trail-shorts-v14.png",
+      "web": "dist/assets/trail-shorts-olive.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "corduroy-pants",
+      "color": "sand",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-78ac35ee-d6e7-4c6f-8834-84460d8b782c.png",
+      "subject": "Warm sand beige straight-leg corduroy trousers, fine wale ridged cotton corduroy texture, belt loops, button waist, side slash pockets, full length front view, unisex.",
+      "original": "assets/source/corduroy-pants-v14.png",
+      "web": "dist/assets/corduroy-pants-sand.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "trail-cap",
+      "color": "navy",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-3902594b-6a60-448b-80bc-34687cc23550.png",
+      "subject": "Single deep ink navy six-panel outdoor baseball cap, curved brim, subtly textured matte nylon, minimal unbranded construction, realistic front three-quarter product view.",
+      "original": "assets/source/trail-cap-v14.png",
+      "web": "dist/assets/trail-cap-navy.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "field-hat",
+      "color": "stone",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-2aa1531c-89bf-49f9-bd3b-c86be5c2c309.png",
+      "subject": "Single light stone grey outdoor bucket hat with medium downward brim, stitched concentric brim lines, soft crown, tonal drawcord under brim neatly arranged, front three-quarter view.",
+      "original": "assets/source/field-hat-v14.png",
+      "web": "dist/assets/field-hat-stone.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "rib-beanie",
+      "color": "clay",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-40c98c37-86c1-4378-9a7e-708ae67ca444.png",
+      "subject": "Single muted terracotta clay knitted ribbed beanie with broad folded cuff, upright neatly shaped full product front view, fine realistic yarn texture.",
+      "original": "assets/source/rib-beanie-v14.png",
+      "web": "dist/assets/rib-beanie-clay.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    },
+    {
+      "id": "daily-pack",
+      "color": "charcoal",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a12eea-8785-7393-956d-47289e3c5880\\exec-0fa0b67d-64d4-450d-9231-0b6fea5b7c37.png",
+      "subject": "Single charcoal grey everyday outdoor backpack, softly squared silhouette, two-zip main opening, one external zip front pocket, side bottle pockets, top handle, shoulder straps neatly visible behind, front three-quarter view.",
+      "original": "assets/source/daily-pack-v14.png",
+      "web": "dist/assets/daily-pack-charcoal.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": true
+    }
+  ],
+  "commonPrompt": "Photorealistic isolated single product for fictional G-YAK, subdued earthy catalog photography, transparent RGBA, full object visible, no text/logo/model/hanger/props. One built-in imagegen call per product; no competitor images used."
+}

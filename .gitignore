@@ -1,0 +1,22 @@
+# Generated local previews, captures, reports and release archives
+/outputs/
+/deliverables/
+/assets/source/
+
+# Local credentials and tool settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.codex/
+.agents/
+.aws/
+
+# Dependencies, caches and operating-system files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

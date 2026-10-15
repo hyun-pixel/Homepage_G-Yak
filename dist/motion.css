@@ -1,0 +1,77 @@
+/* Editorial motion outside the hero. Unsupported/reduced-motion views stay readable. */
+@media (prefers-reduced-motion:no-preference){
+  @supports (animation-timeline:view()){
+    .look-image-link figure,.brand-hero-image,.brand-story figure,.detail-lifestyle{
+      view-timeline-name:--editorial-photo;
+      view-timeline-axis:block;
+      animation:editorial-crop 1s cubic-bezier(.16,1,.3,1) both;
+      animation-timeline:view(block);
+      animation-range:entry 0% entry 100%;
+    }
+    .look-image-link img,.brand-hero-image img,.brand-story figure img,.detail-lifestyle img{
+      animation:editorial-image 1s linear both;
+      animation-timeline:--editorial-photo;
+      animation-range:entry 0% entry 100%;
+    }
+    .everyday-section .section-heading h2,.collection-section .section-heading h2,
+    .recommendation-heading,.look-note h3,.home-brand h2,.brand-heading h1,
+    .brand-story h2,.brand-end h2,.detail-explain>h2,.related-section>h2{
+      animation:editorial-heading 1s cubic-bezier(.16,1,.3,1) both;
+      animation-timeline:view(block);
+      animation-range:entry 0% entry 100%;
+    }
+    .category-entry{
+      animation:editorial-card 1s cubic-bezier(.16,1,.3,1) both;
+      animation-timeline:view(block);
+      animation-range:entry var(--category-start,0%) entry 100%;
+    }
+    .category-entry:nth-child(2){--category-start:10%}
+    .category-entry:nth-child(3){--category-start:20%}
+    .product-card{
+      --entry-offset:20px;
+      animation:editorial-card 1s cubic-bezier(.16,1,.3,1) both;
+      animation-timeline:view(block);
+      animation-range:entry 0% entry 100%;
+    }
+    /* Keyboard navigation immediately exposes the whole selected image and label. */
+    .category-entry:focus-visible,.product-card:focus-visible{
+      animation:none;opacity:1;translate:none;
+    }
+    .look-image-link:focus-visible figure,.look-image-link:focus-visible img{
+      animation:none;clip-path:none;scale:none;
+    }
+    @media(max-width:767px){
+      .look-image-link,.brand-hero-image,.brand-story,.detail-lifestyle{--editorial-scale:1.04;--editorial-crop:5%}
+      .category-entry,.product-card{--entry-offset:14px}
+      .category-entry:nth-child(n){--category-start:0%}
+      .everyday-section,.collection-section,.look-note,.home-brand,.brand-page,.detail-explain,.related-section{--heading-offset:12px}
+    }
+  }
+  @media(hover:hover) and (pointer:fine){
+    .look-image-link img{transition:transform 600ms cubic-bezier(.16,1,.3,1)}
+    .look-image-link:hover img{transform:scale(1.035)}
+    .product-card img,.category-entry img{transition:transform 420ms cubic-bezier(.16,1,.3,1)}
+    .product-card:hover img{transform:translateY(-4px) scale(1.045)}
+    .category-entry:hover img{transform:translateY(-8px) rotate(-1deg) scale(1.035)}
+    .look-caption .text-link svg,.collection-section .text-link svg,
+    .home-brand .button svg,.brand-end .button svg{transition:transform 180ms ease-out}
+    .look-caption .text-link:hover svg,.collection-section .text-link:hover svg,
+    .home-brand .button:hover svg,.brand-end .button:hover svg{transform:translate(3px,-3px)}
+  }
+}
+@keyframes editorial-crop{
+  from{clip-path:inset(var(--editorial-crop,8%) 0 0 0 round var(--image-radius))}
+  to{clip-path:inset(0 0 0 0 round var(--image-radius))}
+}
+@keyframes editorial-image{
+  from{scale:var(--editorial-scale,1.075)}
+  to{scale:1}
+}
+@keyframes editorial-heading{
+  from{translate:0 var(--heading-offset,22px)}
+  to{translate:0 0}
+}
+@keyframes editorial-card{
+  from{opacity:.35;translate:0 var(--entry-offset,30px)}
+  to{opacity:1;translate:0 0}
+}

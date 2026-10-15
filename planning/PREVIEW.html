@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G-야크 홈페이지 비교</title>
+  <link rel="icon" href="../dist/assets/favicon.svg" type="image/svg+xml"><style>
+    @font-face{font-family:SUIT;src:url('../dist/assets/fonts/SUIT-Variable.woff2') format('woff2');font-weight:100 900;font-display:swap}
+    *{box-sizing:border-box}body{margin:0;color:#263024;background:#f2f4ef;font:16px/1.6 SUIT,sans-serif;word-break:keep-all}main{max-width:1376px;margin:auto;padding:36px 24px 48px}h1{font-size:30px;line-height:1.25;letter-spacing:-.02em;font-weight:650;margin:0 0 16px;text-wrap:balance}p{margin:0;color:#5c6656}.toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:24px 0}select{font:inherit;font-size:14px;min-height:44px;padding:8px 32px 8px 12px;border:1px solid #7d8776;border-radius:8px;background:#fbfcf9;color:#263024}label{font-size:14px}select:focus-visible{outline:3px solid #34462d;outline-offset:4px}button,a{font:inherit;color:inherit;min-height:44px;padding:8px 18px;border:1px solid #7d8776;background:#fbfcf9;border-radius:999px;font-size:14px;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}button[aria-pressed=true]{background:#4c5b45;border-color:#4c5b45;color:#fbfcf9}a:last-child{margin-left:auto}button:focus-visible,a:focus-visible{outline:3px solid #34462d;outline-offset:4px}.frame-shell{width:100%;max-width:1280px;margin:24px auto 0;position:relative;overflow:hidden;border-radius:12px;background:#e2e7da;box-shadow:0 12px 48px #26302412}.frame-shell.mobile{max-width:390px}iframe{display:block;position:absolute;left:0;top:0;border:0;transform-origin:top left;background:#f2f4ef}.note{font-size:14px;margin-top:24px;max-width:70ch}@media(max-width:600px){main{padding:24px 16px 32px}h1{font-size:26px}.toolbar{gap:8px}.toolbar a{font-size:13px;padding:8px 12px}.toolbar a:last-child{margin-left:0}.frame-shell{border-radius:8px}}
+  </style>
+</head>
+<body><main>
+  <h1>G-야크 홈페이지</h1>
+  <p>페이지와 PC·모바일을 전환해 홈페이지의 전체 흐름을 확인해 보세요.</p>
+  <div class="toolbar" aria-label="화면 비교">
+    <label for="preview-page">페이지</label><select id="preview-page"><option value="home">홈</option><option value="shop">상품 목록</option><option value="product">상품 상세</option><option value="brand">브랜드</option><option value="journal">저널</option><option value="guide">쇼핑 가이드</option><option value="saved">관심상품</option><option value="cart">장바구니</option><option value="checkout">주문 정보</option></select>
+    <button type="button" data-width="1440" data-height="900" aria-pressed="true">PC</button>
+    <button type="button" data-width="390" data-height="844" aria-pressed="false">모바일</button>
+    <a href="../dist/" target="_blank" rel="noopener">페이지 크게 보기</a>
+    <a href="REVIEW.html">기획·디자인 문서</a>
+  </div>
+  <div class="frame-shell"><iframe src="../dist/?v=18" title="G-야크 홈페이지"></iframe></div>
+  <p class="note">상품 상세에서 색상·사이즈·수량을 고르고 장바구니에 담아보세요. 주문 정보 확인 화면은 입력을 마치면 이어집니다. 실제 결제와 주문 접수는 발생하지 않습니다. 이 비교 안내는 홈페이지 안에는 표시되지 않습니다.</p>
+</main>
+<script>
+  const shell=document.querySelector('.frame-shell');
+  const frame=document.querySelector('iframe');
+  let width=1440,height=900;
+  function fit(){const scale=shell.clientWidth/width;frame.style.width=width+'px';frame.style.height=height+'px';frame.style.transform='scale('+scale+')';shell.style.height=height*scale+'px';}
+  document.querySelectorAll('button[data-width]').forEach(button=>button.addEventListener('click',()=>{
+    width=Number(button.dataset.width);height=Number(button.dataset.height);
+    shell.classList.toggle('mobile',width===390);
+    document.querySelectorAll('button[data-width]').forEach(option=>option.setAttribute('aria-pressed',String(option===button)));
+    fit();
+  }));
+  document.querySelector('#preview-page').addEventListener('change',event=>{
+    const page=event.target.value;frame.src='../dist/?v=18&page='+page+(page==='product'?'&id=everyday-down':'');
+  });
+  document.querySelector('a[target="_blank"]').addEventListener('click',event=>{event.currentTarget.href=frame.contentWindow.location.href;});
+  new ResizeObserver(fit).observe(shell);fit();
+</script>
+</body></html>

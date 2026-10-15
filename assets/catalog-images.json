@@ -1,0 +1,114 @@
+[
+  {
+    "name": "quilt-olive",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 111990
+  },
+  {
+    "name": "vest-stone",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 94774
+  },
+  {
+    "name": "hoodie-stone",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 198922
+  },
+  {
+    "name": "sweat-stone",
+    "width": 900,
+    "height": 1080,
+    "alpha": true,
+    "bytes": 151468
+  },
+  {
+    "name": "long-stone",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 112356
+  },
+  {
+    "name": "trail-olive",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 95044
+  },
+  {
+    "name": "cargo-stone",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 91558
+  },
+  {
+    "name": "jogger-charcoal",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 111828
+  },
+  {
+    "name": "quilt-charcoal",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 106612
+  },
+  {
+    "name": "vest-charcoal",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 84898
+  },
+  {
+    "name": "hoodie-olive",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 202922
+  },
+  {
+    "name": "sweat-charcoal",
+    "width": 900,
+    "height": 1080,
+    "alpha": true,
+    "bytes": 120786
+  },
+  {
+    "name": "long-charcoal",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 154708
+  },
+  {
+    "name": "trail-charcoal",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 69626
+  },
+  {
+    "name": "cargo-olive",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 84296
+  },
+  {
+    "name": "jogger-stone",
+    "width": 900,
+    "height": 1350,
+    "alpha": true,
+    "bytes": 150410
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "tool": "built-in image_gen, transparent-background edits",
+  "use": "Open-front cutouts for a two-state scroll crossfade. Fictional imagery; not a 3D model or physical garment recording.",
+  "assets": [
+    {
+      "color": "olive",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-c2087b7b-c202-4439-8fdd-ac6c161067be.png",
+      "prompt": "Use case: precise-object-edit. Edit target: the supplied transparent product cutout of the fictional G-YAK olive hooded puffer jacket. Create the exact same jacket in a gently OPEN front-zipper pose as a second animation state for a website. Unzip the center zip fully and softly part the left and right front panels to reveal a narrow opening and the matching darker olive padded lining; opening about 15-20% of torso width, naturally splayed near the hem. Keep the garment facing directly forward at the same camera angle. CRITICAL INVARIANTS: identical olive fabric color, matte fabric, hood construction, quilting/baffle count, pocket placements, sleeves, cuffs, length, overall scale, lighting and photographic texture as reference. Do not redesign, add pockets, add labels, add straps, or invent hardware. Keep the upper hood, shoulders and sleeve cuffs as aligned to the original positions as possible so the two states can transition without jumping. Preserve the full garment, exact reference portrait aspect ratio, centered placement and transparent empty margins. The main change must be the clearly separated front panels, not rotation or different lighting. Realistic ghost-mannequin product photography, no body, no hanger, no hands, no mannequin visible, no shadows outside garment, no text, no logos. Output one jacket cutout on a truly transparent background with alpha, never a checkerboard or solid color.",
+      "references": [
+        "assets/source/puffer-olive.png"
+      ],
+      "workspaceSource": "assets/source/puffer-olive-open.png",
+      "output": "dist/assets/puffer-olive-open.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 118176,
+      "alpha": true
+    },
+    {
+      "color": "stone",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-0dd79c05-4c42-4cc3-a6c7-9d820f3be0fb.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a transparent olive puffer jacket with front zipper open. Image 2 is a light neutral stone-gray AND MATERIAL reference: the same jacket closed in light neutral stone-gray. Change ONLY the fabric and lining color of Image 1 to match the light neutral stone-gray jacket of Image 2. Preserve the exact open pose and geometry of Image 1: open zipper, separated front panels, visible padded lining, hood shape and position, sleeves, cuffs, pockets, quilting, hardware, framing, scale, 1145x1374 portrait canvas and transparency. The result must look like the same fictional G-YAK garment in the light neutral stone-gray colorway, not a redesigned coat. Match the neutral matte fabric color and soft photographic light of Image 2; lining may be slightly darker than the exterior as in Image 1. Keep everything else from Image 1 unchanged. No body, hands, hanger, mannequin, labels, words, logos or extra accessories. One full garment with genuine transparent alpha background, never a checkerboard or solid color.",
+      "references": [
+        "open olive generated edit target",
+        "assets/source/puffer-stone.png"
+      ],
+      "workspaceSource": "assets/source/puffer-stone-open.png",
+      "output": "dist/assets/puffer-stone-open.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 124996,
+      "alpha": true
+    },
+    {
+      "color": "charcoal",
+      "source": "C:/Users/User/.codex/generated_images/01a12eea-8785-7393-956d-47289e3c5880/exec-46181e69-e4b4-4a9c-9048-38a50c4d01d1.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a transparent olive puffer jacket with front zipper open. Image 2 is a deep neutral charcoal-gray AND MATERIAL reference: the same jacket closed in deep neutral charcoal-gray. Change ONLY the fabric and lining color of Image 1 to match the deep neutral charcoal-gray jacket of Image 2. Preserve the exact open pose and geometry of Image 1: open zipper, separated front panels, visible padded lining, hood shape and position, sleeves, cuffs, pockets, quilting, hardware, framing, scale, 1145x1374 portrait canvas and transparency. The result must look like the same fictional G-YAK garment in the deep neutral charcoal-gray colorway, not a redesigned coat. Match the neutral matte fabric color and soft photographic light of Image 2; lining may be slightly darker than the exterior as in Image 1. Keep everything else from Image 1 unchanged. No body, hands, hanger, mannequin, labels, words, logos or extra accessories. One full garment with genuine transparent alpha background, never a checkerboard or solid color.",
+      "references": [
+        "open olive generated edit target",
+        "assets/source/puffer-charcoal.png"
+      ],
+      "workspaceSource": "assets/source/puffer-charcoal-open.png",
+      "output": "dist/assets/puffer-charcoal-open.webp",
+      "dimensions": [
+        1000,
+        1200
+      ],
+      "bytes": 107200,
+      "alpha": true
+    }
+  ]
+}
